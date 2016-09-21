@@ -1,0 +1,97 @@
+  #map {
+    background-color: #fff;
+    /*border: 1px solid #ccc;*/
+  }
+  #slider1text{
+    opacity: 0;
+  }
+  .background {
+    fill: rgba(174, 216, 230, 0.45);
+    pointer-events: all;
+  }
+  .subunit {
+    fill:#f6e8d0;
+    stroke: rgba(29, 72, 26, 0.32);
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+  .place,
+  .place-label {
+    fill: #444;
+  }
+
+  .hour.label {
+    font: 500 30px "Helvetica Neue";
+    color: #C0C0C0;
+  }
+
+  .collection.label {
+    font: 700 30px "Helvetica Neue";
+    color: 'black';
+  }
+
+  .route {
+    fill: none;
+    stroke: black;
+    stroke-width: .8px;
+  }
+
+  text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 8.5px;
+    pointer-events: none;
+  }
+  pre.prettyprint {
+    border: 1px solid #ccc;
+    margin-bottom: 0;
+    padding: 9.5px;
+  }
+
+  .d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+  }
+
+  /* Creates a small triangle extender for the tooltip */
+  .d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+  .article-publish-event {
+    top: -.15em;
+    margin-left: -.6em;
+    margin-top: -.15em;
+    position: absolute;
+    width: .6em;
+    height: .6em;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+    background: #413839;
+    /*background: linear-gradient(to bottom, #eee 0%, #ddd 100%);*/
+    z-index: 3;
+}
+  /* Style northward tooltips differently */
+  .d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+  }
+
+.arrow{
+  /*stroke-width:1;*/
+  stroke:#000;
+  /*shape-rendering: crispEdges;*/
+  /*stroke-dasharray:1, 1;*/
+}
